@@ -33,7 +33,7 @@ export const Navbar = () => {
               </Button>
             </SignInButton>
 
-            <SignUpButton mode="modal">
+            <SignUpButton fallbackRedirectUrl="/" mode="modal">
               <Button size="sm">Get Inked Free</Button>
             </SignUpButton>
           </>
