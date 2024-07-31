@@ -29,7 +29,8 @@ export const UserItems = () => {
                 <AvatarImage src={user?.imageUrl} />
               </Avatar>
               <span className="text-start font-medium line-clamp-1">
-                {user?.fullName}&pos;s InkField
+                {user?.fullName}
+                {"'"}s InkField
               </span>
             </div>
             <ChevronsLeftRight className="rotate-90 ml-2 text-muted-foreground h-4 w-4" />
@@ -56,7 +57,8 @@ export const UserItems = () => {
 
               <div className="space-y-1">
                 <p className="text-sm line-clamp-1">
-                  {user?.fullName}&pos;s Inked
+                  {user?.fullName}
+                  {"'"}s Inked
                 </p>
               </div>
             </div>
